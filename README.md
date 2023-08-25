@@ -40,8 +40,8 @@ Here are two screenshots of how my solution looks like both for desktop and mobi
 
 ### Links
 
-- Solution URL: [Solution on frontend mentor](https://your-solution-url.com)
-- Live Site URL: [Live solution](https://your-live-site-url.com)
+- Solution URL: [Solution on frontend mentor](https://www.frontendmentor.io/solutions/chat-app-css-illustration-master-challenge-1iwhD1et9P)
+- Live Site URL: [Live solution](https://itsale-o.github.io/chat-app-css-illustration-master/)
 
 ## My process
 
