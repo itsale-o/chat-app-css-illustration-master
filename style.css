@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    max-width: 1450px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+#section1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 180px;
+    width: 50%;
+}
+
+#purple-bg{
+    position: fixed;
+    left: -50px;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 320px;
+    height: 95%;
+    border-radius: 0 0 250px 250px;
+}
+
+#mobile-device{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border: solid 8px white;
+    width: 260px;
+    height: 500px;
+    background-color: hsl(270, 20%, 96%);
+    box-shadow: 8px 8px 15px hsl(266, 9%, 85%);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 73px;
+    border-radius: 22px 22px 5px 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));    
+}
+
+#device-part{
+    width: 60%;
+    height: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+}
+
+#header-content{
+    padding: 0 10px 0 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#personal-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 70px;
+}
+
+#personal-info > img{
+    width: 28px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 1px white;
+}
+
+#personal-info > #name{
+    line-height: 13px;
+    margin-left: 10px;
+}
+
+#personal-info > #name > h1{
+    font-size: 11px;
+}
+
+#personal-info > #name > p{
+    color: hsl(276, 100%, 81%);
+    font-size: 8px;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+    font-size: 10px;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
+.left-msg{
+    color: hsl(276, 55%, 52%);
+}
+
+.left-msg > ul > li{
+    border-radius: 8px 8px 8px 3px;
+    width: 62%;
+    margin-left: 5px;
+    padding: 6px 8px 6px 6px;
+    background-color: hsl(272, 41%, 93%);
+}
+
+.right-msg > ul{
+    float: right;
+    width: 65%;
+}
+
+#dog-pics{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin: 0 -3px 7px 0;
+}
+
+#dog-pics > img{
+    margin-right: 8px;
+    border-radius: 10px;
+    width: 35px;
+}
+
+.right-msg{
+    color: hsl(271, 15%, 43%);
+}
+
+.right-msg > ul > li{
+    float: right;
+    background-color: white;
+    padding: 6px 6px 6px 8px;
+    border-radius: 8px 8px 3px 8px;
+    margin-right: 5px;
+    width: fit-content;
+}
+
+#pricing{
+    margin-bottom: 8px;
+}
+
+.price{
+    width: 70%;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+    margin: 0 0 7px 5px;
+    padding: 6px 8px 6px 6px;
+    border-radius: 8px 8px 8px 3px;
+    background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.price > .radio-btn{
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+.btn{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    border: solid 1px hsl(289, 100%, 72%);
+    margin-right: 5px;
+}
+
+.price > span{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.price1 > span{
+    margin-left: 30px;
+}
+
+.price2 > span{
+    margin-left: 50px;
+}
+
+#input{
+    height: 35px;
+    margin: 0 5px 0 5px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#input > p{
+    margin-left: 15px;
+    font-size: 10px;
+    color: hsl(206, 6%, 79%);
+}
+
+#input > #send{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: hsl(271, 36%, 24%);
+    margin-right: 3px;
+}
+
+#input > #send > ion-icon{
+    color: white;
+}
+
+#section2 > #sec2-txt > .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: hsl(271, 36%, 24%);
+}
+
+#section2 > #sec2-txt > .description{
+    width: 78%;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: hsl(270, 7%, 64%);
+}
+
+#white-bg{
+    position: fixed;
+    right: -70px;
+    top: 80px;
+    background: hsl(270, 20%, 96%);
+    z-index: -1;
+    width: 350px;
+    height: 95%;
+    border-radius: 250px 250px 0 0;
+}
+
+@media(min-width: 700px){
+    #content{
+        margin-bottom: 120px;
+    }
+
+    #mobile-device{
+        position: relative;
+        top: 90px;
+        left: 220px;
+    }
+}
+
+@media(max-width: 700px){
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #purple-bg{
+        position: absolute;
+        left: -150px;
+        width: 380px;
+        border-radius: 0 0 250px 250px;
+        z-index: -1;
+    }  
+    
+    #mobile-device{
+        position: relative;
+        top: 90px;
+    }
+
+    #section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 180px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #section2 > #sec2-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #section2 > #sec2-txt > .title{
+        font-size: 30px;
+    }
+
+    #section2 > #sec2-txt > .description{
+        width: 55%;     
+    }
+
+    #white-bg{
+        position: fixed;
+        right: -150px;
+        top: 200px;
+        background: hsl(270, 20%, 96%);;
+        z-index: -1;
+        width: 350px;
+        height: 95%;
+        border-radius: 250px 250px 0 0;
+    }
+
+    .attribution {
+        margin-bottom: 10px;
+    }
+}
+
+.attribution{
+    color: hsl(270, 7%, 64%);
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a{
+    color: hsl(264, 100%, 61%);
+}
