@@ -10,6 +10,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -49,6 +50,10 @@ Here are two screenshots of how my solution looks like both for desktop and mobi
 
 - Semantic HTML5 markup
 - CSS custom properties
+
+### Useful resources
+
+- [Ion Icons](https://ionic.io/ionicons) - For the icons. It is very simples to use (compared to others)
 
 ## Author
 
